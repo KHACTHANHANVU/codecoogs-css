@@ -1,0 +1,161 @@
+*{
+    text-align: center;
+    color: #FDFDD3;
+
+}
+div[id="Title"]{
+    background-image: url("pink-flower-and-leaf-frame-background-cute-frame-for-design-free-png.webp");
+    background-size: 1850px;
+    background-repeat: no-repeat;
+    margin-left: 3%;
+    padding:3%;
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 40pt;
+    text-transform: uppercase;
+    
+}
+#Title > img{
+    width:30%;
+    height:30%;
+    border-radius: 10px;
+    box-shadow: (7px, 7px);
+}
+
+.Service{
+    margin:2%;
+}
+div.Service > table{
+    display: inline-block;
+}
+div.Service tr{
+height:40px;
+}
+div.Service th{
+    background-color: #FDFDD3;
+    color: seagreen;
+    font-size: 24pt;
+}
+div.Service td{
+    border: solid #FDFDD3;
+    font-size:20pt;
+}
+.book-now{
+    transition: 1s;
+    
+}
+.book-now:hover{
+    background-color:#FDFDD3;
+    
+}
+
+a{
+    text-decoration:none;
+    
+}
+
+
+
+div[id="Service"]{
+    font-family: cursive;
+    font-size: 34pt;
+}
+
+div.img{
+    border-radius: 10px;
+}
+
+h2 {
+    font-family: 'Pixelify Sans', cursive;
+    font-size: 34pt;
+}
+h3{
+    font-family: 'Pixelify Sans', cursive; 
+    font-size:30pt;
+}
+@media (min-width: 0px) and (max-width:851px) {
+    body{
+      background-color: lightsalmon;
+    }
+    .Service table tr td  :hover{
+        transition: 0.2s;
+        color: lightsalmon;
+    }
+    #Customer > table tr td img:hover{
+        box-shadow: 5px 5px rgb(144, 90, 69);
+    }
+    div#Customer >table{
+        display: block;
+        border-radius: 10px;
+        background-color: bisque;
+        padding: 1%;
+    
+    }
+    #Customer{
+        display:block;
+        background-size:cover;
+        background-image:url("cute-clouds-background-g68vkwf30aklfll3.gif");
+        border-radius: 10px;
+        padding:2%;
+    }
+    
+    #Customer > table tr td img{
+        display:block;
+        width:20vw;
+        height:30vh;
+        margin:0.5vw;
+        border-radius:10px;
+        transition:0.2s;
+        
+    }
+    
+  }
+
+    @media (min-width: 852px){
+      body{
+        background-color: seagreen;
+      }
+      .Service table tr td  :hover{
+        transition: 0.2s;
+        color: seagreen;
+    }
+    #Customer > table tr td img:hover{
+        box-shadow: 5px 5px rgb(24, 74, 45);
+    }
+    div#Customer >table{
+        display: inline-block;
+        border-radius: 10px;
+        background-color: bisque;
+        padding: 1%;
+    
+    }
+    #Customer{
+        display:inline-block;
+        background-size:cover;
+        background-image:url("cute-clouds-background-g68vkwf30aklfll3.gif");
+        border-radius: 10px;
+        padding:2%;
+    }
+    
+    #Customer > table tr td img{
+        display:inline-block;
+        width:20vw;
+        height:30vh;
+        margin:0.5vw;
+        border-radius:10px;
+        transition:0.2s;
+        
+    }
+    
+    }
+
+#Location >iframe{
+    width:70vw;
+    height:40vh;
+    border-style:hidden;
+    border-radius:15px;
+}
+
+.Contact{
+    margin-left: 0%;
+    margin-top: 2%;
+}
